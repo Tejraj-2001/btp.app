@@ -1,0 +1,35 @@
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.youtube-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.notification-bar {
+  background-color: #ffdcdc;
+  color: #000000;
+  font-size: 16px;
+  text-align: center;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.notification-bar p {
+  margin: 0;
+  white-space: nowrap;
+  display: inline-block;
+  animation: marquee 10s linear infinite;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
