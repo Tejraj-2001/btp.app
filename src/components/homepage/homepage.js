@@ -1,4 +1,4 @@
-// import { Outlet, Link } from "react-router-dom";
+import { Outlet, Link } from "react-router-dom";
 import React from "react"
 import "./homepage.css"
 import Substation from "../../images/substation.jpg";
