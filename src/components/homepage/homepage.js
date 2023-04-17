@@ -29,11 +29,11 @@ const Homepage = ({setLoginUser}) => {
       
        <h3>List of Equipments</h3>
        <ol>
-         <li><a href="/transformer"> Transformer</a></li>
-         <li><a href="/busbar">Bus bar</a></li>
-         <li><a href="/relay">Relay</a></li>
-         <li><a href="/circuitbreaker">Circuit Breakers</a></li>
-         <li><a href="/capaciterbank">Capaciter Bank</a></li>
+         <li><Link to="/transformer">Transformer</Link></li>
+         <li><Link to="/busbar">Bus Bar</Link></li>
+         <li><Link to="/relay">Relay</Link></li>
+         <li><Link to="/circuitbreaker">Circuit Breaker</Link></li>
+         <li><Link to="/capaciterbank">Capaciter Bank</Link></li>
        </ol> 
        </div>
     </div> 
