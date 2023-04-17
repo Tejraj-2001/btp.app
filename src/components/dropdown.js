@@ -1,7 +1,9 @@
+import {Link } from "react-router-dom";
 import Button from 'react-bootstrap/Button';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import Dropdown from 'react-bootstrap/Dropdown';
 import "./assets.css"
+import "./dropdown.css"
 function Dropdown_nav() {
   return (
     <div>
@@ -11,11 +13,12 @@ function Dropdown_nav() {
       <Dropdown.Toggle split variant="success" id="dropdown-split-basic" />
 
       <Dropdown.Menu>
-      <div><Dropdown.Item href="/transformer">Transformer</Dropdown.Item></div>
-        <div> <Dropdown.Item href="/busbar">Bus bar</Dropdown.Item></div>
-        <div> <Dropdown.Item href="/circuitbreaker">Circuit Breakers</Dropdown.Item></div>
-        <div> <Dropdown.Item href="/capaciterbank">Capaciter Bank</Dropdown.Item></div>
-        <div> <Dropdown.Item href="/relay">Relay</Dropdown.Item></div>
+      <div className="links" ><Dropdown.Item><Link to="/transformer">Transformer</Link></Dropdown.Item></div>
+      <div className="links"><Dropdown.Item><Link to="/busbar">Bus bar</Link></Dropdown.Item></div>
+      <div className="links"><Dropdown.Item><Link to="/circuitbreaker">Circuit Breakers</Link></Dropdown.Item></div>
+      <div className="links"><Dropdown.Item><Link to="/capaciterbank">Capaciter Bank</Link></Dropdown.Item></div>
+      <div className="links"><Dropdown.Item><Link to="/relay">Relay</Link></Dropdown.Item></div>
+        
       </Dropdown.Menu>
     </Dropdown>
     </div>
