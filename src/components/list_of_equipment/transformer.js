@@ -30,7 +30,7 @@ function Transformer() {
           <div className="card">
             <img src={Transformer2} className="card-image" alt="logo" />
             <div className="card-content">
-              <h3 className="card-title">Reting:-</h3>
+              <h3 className="card-title">Rating:-</h3>
               
               <h5>At Level-2:</h5>
                500KVA, 11KV/433V ONAN OLTC
