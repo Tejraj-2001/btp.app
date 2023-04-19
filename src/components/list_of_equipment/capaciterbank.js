@@ -25,7 +25,7 @@ function Capaciterbank() {
             <div className="card">
               <img src={Capbank2} className="card-image" alt="logo" />
               <div className="card-content">
-                <h3 className="card-title">Reting:</h3>
+                <h3 className="card-title">Rating:</h3>
                 
                 <h5>100KVAR</h5>
               </div>
