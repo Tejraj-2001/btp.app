@@ -8,7 +8,7 @@ function Capaciterbank() {
         <div className="main">
         <Navbar />
         <div className="title-container">
-          <h3 className="card-title">Circuit Bank </h3>
+          <h3 className="card-title">Capaciter Bank </h3>
         </div>
         <div className="container">
         <div className="notification-bar">
