@@ -18,13 +18,7 @@ function Relay() {
               <div className="card-content">
                 <h3>Rating:</h3>
                 <h5>For 33KV HT panel</h5>
-                630A, 33KV, 50Hz, TP CU, BusBar
-                <br />
-                <br />
-                <h5>For 11KV HT main panel</h5>
-                630A, 11KV, 50Hz, TP CU, BusBar
-                <br />
-                <br />
+               
                 
                 
               </div>
@@ -32,14 +26,8 @@ function Relay() {
             <div className="card">
               <img src={R1} className="card-image" alt="logo" />
               <div className="card-content">
-                <h3 className="card-title">Card 2</h3>
+                <h3 className="card-title">Ratings:-</h3>
                 
-                <h5>For 11KV HT main panel</h5>
-                630A, 11KV, 50Hz, TP CU, BusBar
-                <br />
-                <br />
-                <h5>For Emergency panel</h5>
-                600A,415V,50Hz TPN AI. BUSBAR
                 
               </div>
             </div>
