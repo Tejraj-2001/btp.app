@@ -31,7 +31,7 @@ function Circuitbreaker() {
             <div className="card">
               <img src={CB2} className="card-image" alt="logo" />
               <div className="card-content">
-                <h3 className="card-title">Retings in Amps:-</h3>
+                <h3 className="card-title">Ratings in Amps:-</h3>
                 
                 <h5>Emergency Panel</h5>
                 630A FP MCCB.
